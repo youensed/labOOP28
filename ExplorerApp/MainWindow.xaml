@@ -1,0 +1,73 @@
+﻿<Window x:Class="ExplorerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Провідник" Height="688" Width="1000" Icon="/60174_explorer_file_icon.png" Background="#FF604242">
+    <DockPanel>
+        <TreeView x:Name="DriveTree" DockPanel.Dock="Left" Width="171" 
+                  SelectedItemChanged="DriveTree_SelectedItemChanged" Background="#FF815F5F" Foreground="White"/>
+        <Grid Width="817" Height="895">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="711*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical" Grid.Column="1" Margin="9,198,11,36">
+                <StackPanel.Background>
+                    <ImageBrush/>
+                </StackPanel.Background>
+                <TextBlock Text="Властивості" FontWeight="Bold" Margin="5" Foreground="#FFDDDDDD"/>
+                <TextBlock x:Name="PropertiesTextBlock" Margin="5" Foreground="White" Height="41" FontStretch="UltraExpanded"/>
+                <Button Content="Створити каталог" Click="CreateDirectory_Click" Margin="5" Foreground="#FFFFF0F0" OpacityMask="#FF514C4C">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Створити файл" Click="CreateFile_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Видалити" Click="DeleteItem_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Перенести" Click="MoveItem_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Копіювати" Click="CopyItem_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Редагувати атрибути" Click="EditAttributes_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Редагувати текстовий файл" Click="EditTextFile_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Архівувати" Click="ZipItem_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Розпакувати" Click="UnzipItem_Click" Margin="5" Foreground="#FFF8F8F8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Grid.Column="1" Margin="10,10,0,665">
+                <TextBlock Text="Вміст" FontWeight="Bold" Margin="5" Foreground="#FFF6F6F6"/>
+                <TextBox x:Name="FilterTextBox" Margin="5" KeyUp="FilterTextBox_KeyUp" Text="Фільтр..." 
+                         GotFocus="RemovePlaceholderText" LostFocus="AddPlaceholderText"/>
+                <ListBox x:Name="DirectoryContentListBox" Margin="5" SelectionChanged="DirectoryContentListBox_SelectionChanged"/>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,36 @@
+D:\My projects\ExplorerApp\ExplorerApp\bin\Debug\ExplorerApp.exe.config
+D:\My projects\ExplorerApp\ExplorerApp\bin\Debug\ExplorerApp.exe
+D:\My projects\ExplorerApp\ExplorerApp\bin\Debug\ExplorerApp.pdb
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp.csproj.AssemblyReference.cache
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\MainWindow.baml
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\MainWindow.g.cs
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\App.g.cs
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp_MarkupCompile.cache
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp.g.resources
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp.Properties.Resources.resources
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp.csproj.GenerateResource.cache
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp.csproj.CoreCompileInputs.cache
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp.exe
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\ExplorerApp.pdb
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\EditWindow.baml
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\PromptWindow.baml
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\EditWindow.g.cs
+D:\My projects\ExplorerApp\ExplorerApp\obj\Debug\PromptWindow.g.cs
+C:\Users\bogda\Downloads\DAS\ExplorerApp\bin\Debug\ExplorerApp.exe.config
+C:\Users\bogda\Downloads\DAS\ExplorerApp\bin\Debug\ExplorerApp.exe
+C:\Users\bogda\Downloads\DAS\ExplorerApp\bin\Debug\ExplorerApp.pdb
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp.csproj.AssemblyReference.cache
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\EditWindow.baml
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\MainWindow.baml
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\PromptWindow.baml
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\EditWindow.g.cs
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\MainWindow.g.cs
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\PromptWindow.g.cs
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\App.g.cs
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp_MarkupCompile.cache
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp.g.resources
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp.Properties.Resources.resources
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp.csproj.GenerateResource.cache
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp.csproj.CoreCompileInputs.cache
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp.exe
+C:\Users\bogda\Downloads\DAS\ExplorerApp\obj\Debug\ExplorerApp.pdb
